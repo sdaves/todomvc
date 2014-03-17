@@ -15,4 +15,4 @@
         model: todo,
         template: $('#footer-template').html(),
     });
-})(jQuery);
+})($);

@@ -76,7 +76,7 @@ function todoPresenter(element, options) {
     /* Private functions */
     function toggle(task, flag) {
         task.toggleClass('completed', flag);
-        task.find(':checkbox').prop('checked', flag);
+        task.find('[type=checkbox]').prop('checked', flag);
         element.find('#toggle-all').prop('checked', todo.isDone());
     }
 
